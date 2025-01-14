@@ -81,12 +81,6 @@ def getTopTen(w_count):
     return D
 
 
-# In[181]:
-
-
-get_ipython().run_line_magic('pinfo2', 'getTopTen')
-
-
 # In[168]:
 
 
