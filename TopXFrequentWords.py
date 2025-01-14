@@ -17,7 +17,8 @@
 
 import matplotlib.pyplot as plt
 import pandas as pd
-f = open(r"C:\Users\andre\OneDrive\Documents\microdose_top_articles.txt", 'r', encoding='utf-8')
+x = str(input("Enter the file path without quotation marks: "))
+f = open(x, 'r', encoding='utf-8'
 articles = f.read()
 
 
